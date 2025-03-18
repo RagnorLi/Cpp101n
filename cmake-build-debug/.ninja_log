@@ -1,0 +1,5 @@
+# ninja log v6
+4	314	1742275337092242559	CMakeFiles/learnCpp.dir/main.cpp.o	43ce5d86ba0521eb
+4	378	1742274858591126717	CMakeFiles/learnCpp.dir/chapter01/step_01_enjoy.cpp.o	a58f10707c1686e2
+314	340	1742275337402500748	learnCpp	2975a24758c766b7
+3	386	1742274912427103205	CMakeFiles/learnCpp.dir/chapter_runner.cpp.o	61de987f53d27ab4

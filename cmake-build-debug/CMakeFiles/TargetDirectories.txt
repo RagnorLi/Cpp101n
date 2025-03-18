@@ -1,0 +1,3 @@
+/Users/ragnor/Coder/Project/CLionProj/ModernCppLab/cmake-build-debug/CMakeFiles/learnCpp.dir
+/Users/ragnor/Coder/Project/CLionProj/ModernCppLab/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ragnor/Coder/Project/CLionProj/ModernCppLab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
