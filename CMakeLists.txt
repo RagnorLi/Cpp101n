@@ -16,4 +16,6 @@ add_executable(learnCpp main.cpp
         ch2/statement/statementImpl.h
         ch3/function_family.h
         ch3/function_family.cpp
+        ch4/filetype_family.h
+        ch4/filetype_family.cpp
 )

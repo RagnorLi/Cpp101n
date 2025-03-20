@@ -16,13 +16,13 @@ namespace ch3 {
         std::cout << "Running Chapter 3...\n";
 
         // 创建一个简单的菜单系统
-        std::cout << "1. groupByDefinitionScope\n";
-        std::cout << "2. groupBySpecialUseage\n";
-        std::cout << "3. groupByWithConstraints\n";
-        std::cout << "4. groupByPolymorphicKey\n";
-        std::cout << "5. groupByGenericProjection\n";
-        std::cout << "6. groupByModernLambda\n";
-        std::cout << "7. groupByMemoryAware\n";
+        std::cout << "1. 基于定义位置的函数分类\n";
+        std::cout << "2. 基于特殊用途的函数分类\n";
+        std::cout << "3. 基于约束和修饰的函数分类\n";
+        std::cout << "4. 基于多态性的函数分类\n";
+        std::cout << "5. 基于模版和泛型编程的函数分类\n";
+        std::cout << "6. 基于现代C++的函数特性\n";
+        std::cout << "7. 基于内存和执行模型的函数分类\n";
 
         int choice;
         std::cout << "选择一个主题 (1-7): ";
