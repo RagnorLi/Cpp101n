@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "learnCpp"
+			"value" : "ModernCppLab"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1118,7 +1118,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "learnCpp_BINARY_DIR",
+			"name" : "ModernCppLab_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1130,7 +1130,7 @@
 			"value" : "/Users/ragnor/Coder/Project/CLionProj/ModernCppLab/cmake-build-debug"
 		},
 		{
-			"name" : "learnCpp_IS_TOP_LEVEL",
+			"name" : "ModernCppLab_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1142,7 +1142,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "learnCpp_SOURCE_DIR",
+			"name" : "ModernCppLab_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1152,6 +1152,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "/Users/ragnor/Coder/Project/CLionProj/ModernCppLab"
+		},
+		{
+			"name" : "Python3_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/Users/ragnor/miniconda3/envs/cpp_cards/bin/python"
+		},
+		{
+			"name" : "Python_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "/Users/ragnor/miniconda3/envs/cpp_cards/bin/python"
 		}
 	],
 	"kind" : "cache",

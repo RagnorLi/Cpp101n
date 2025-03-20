@@ -1,5 +1,8 @@
 # ninja log v6
-4	314	1742275337092242559	CMakeFiles/learnCpp.dir/main.cpp.o	43ce5d86ba0521eb
-4	378	1742274858591126717	CMakeFiles/learnCpp.dir/chapter01/step_01_enjoy.cpp.o	a58f10707c1686e2
-314	340	1742275337402500748	learnCpp	2975a24758c766b7
-3	386	1742274912427103205	CMakeFiles/learnCpp.dir/chapter_runner.cpp.o	61de987f53d27ab4
+4	434	1742436369224859796	CMakeFiles/learnCpp.dir/ch2/hello_cpp.cpp.o	f81dd01dbeca46f5
+3	432	1742286783387456422	CMakeFiles/learnCpp.dir/ch_runner.cpp.o	3a91cd545ba6708e
+2	40	1742455935476936313	build.ninja	b230b2764847944f
+4	383	1742435831983393145	CMakeFiles/learnCpp.dir/ch1/enjoy.cpp.o	88a37749da020b0c
+434	465	1742436369654870896	learnCpp	ae36e1cabf616fab
+2	370	1742286783387148254	CMakeFiles/learnCpp.dir/main.cpp.o	d2941063b5db811f
+2	354	1742435983872822084	CMakeFiles/learnCpp.dir/ch2/statement/statementImpl.cpp.o	1af561fe04ea0122

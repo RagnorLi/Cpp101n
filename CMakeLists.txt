@@ -3,9 +3,17 @@ project(ModernCppLab)
 
 set(CMAKE_CXX_STANDARD 20)
 
+include_directories(${PROJECT_SOURCE_DIR}/)
+
 add_executable(learnCpp main.cpp
-        chapter01/step_01_enjoy.cpp
-        chapter01/step_01_enjoy.h
-        chapter_runner.cpp
-        chapter_runner.h
+        ch1/enjoy.cpp
+        ch1/enjoy.h
+        ch_runner.cpp
+        ch_runner.h
+        ch2/hello_cpp.cpp
+        ch2/hello_cpp.h
+        ch2/statement/statementImpl.cpp
+        ch2/statement/statementImpl.h
+        ch3/function_family.h
+        ch3/function_family.cpp
 )

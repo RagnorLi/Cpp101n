@@ -90,6 +90,9 @@ make
 <p><em>Visual memory layout from Chapter 4: Pointers Visualized</em></p>
 </div>
 
+
+
+
 ```cpp
 // From Chapter 12: Smart Pointers in Action
 auto resource = std::make_unique<Resource>("precious");

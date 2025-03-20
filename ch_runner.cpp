@@ -6,10 +6,10 @@
  * @details 
  * @copyright Copyright (c) 2025 ragnor. All rights reserved.
  */
-#include "chapter_runner.h"
+#include <algorithm>
 #include <iostream>
 #include <stdexcept>
-#include <algorithm>
+#include "ch_runner.h"
 
 ChapterRunner& ChapterRunner::getInstance() {
  static ChapterRunner instance;
