@@ -18,4 +18,6 @@ add_executable(learnCpp main.cpp
         ch3/function_family.cpp
         ch4/filetype_family.h
         ch4/filetype_family.cpp
+        ch5/bug_debug.h
+        ch5/bug_debug.cpp
 )
