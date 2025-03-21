@@ -15,7 +15,7 @@ namespace ch3 {
     void run() {
         std::cout << "Running Chapter 3...\n";
 
-        // 创建一个简单的菜单系统
+        // 创建菜单系统
         std::cout << "1. 基于定义位置的函数分类\n";
         std::cout << "2. 基于特殊用途的函数分类\n";
         std::cout << "3. 基于约束和修饰的函数分类\n";

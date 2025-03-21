@@ -15,7 +15,7 @@ namespace ch0 {
     void run() {
         std::cout << "Running Chapter 0...\n";
 
-        // 创建一个简单的菜单系统
+        // 创建菜单系统
         std::cout << "1. 编译阶段-预处理\n";
         std::cout << "2. 编译阶段-词法分析\n";
         std::cout << "3. 编译阶段-语法分析\n";

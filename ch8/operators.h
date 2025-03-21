@@ -16,7 +16,9 @@ namespace ch8 {
 
     void logicalOperator_basicLogicalOperators();
 
-    void bitwiseOperator_basicBitwiseOperators();
+    void bitOperator_bitset();
+    void bitOperator_bitwise();
+    void bitOperator_bitmasks();
 
     void assignmentOperator_simpleAssignment();
     void assignmentOperator_compoundAssignment();

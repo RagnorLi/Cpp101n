@@ -15,7 +15,7 @@ namespace ch7 {
     void run() {
         std::cout << "Running Chapter 7...\n";
 
-        // 创建一个简单的菜单系统
+        // 创建菜单系统
         std::cout << "1. 隐式类型转换-数值提升\n";
         std::cout << "2. 隐式类型转换-数值转换\n";
         std::cout << "3. 隐式类型转换-指针转换\n";

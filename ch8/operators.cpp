@@ -15,7 +15,7 @@ namespace ch8 {
     void run() {
         std::cout << "Running Chapter 8...\n";
 
-        // 创建一个简单的菜单系统
+        // 创建菜单系统
         std::cout << "1. 算术运算符-基本运算符\n";
         std::cout << "2. 算术运算符-一元运算符\n";
         std::cout << "3. 关系运算符-比较运算符\n";
@@ -61,7 +61,7 @@ namespace ch8 {
                 logicalOperator_basicLogicalOperators();
                 break;
             case 5:
-                bitwiseOperator_basicBitwiseOperators();
+                bitOperator_bitset();
                 break;
             case 6:
                 assignmentOperator_simpleAssignment();
@@ -147,8 +147,8 @@ namespace ch8 {
         std::cout << "ch8 logicalOperator_basicLogicalOperators start";
     }
     
-    void bitwiseOperator_basicBitwiseOperators() {
-        std::cout << "ch8 bitwiseOperator_basicBitwiseOperators start";
+    void bitOperator_bitset() {
+        std::cout << "ch8 bitOperator_bitset start";
     }
     
     void assignmentOperator_simpleAssignment() {

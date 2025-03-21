@@ -15,7 +15,7 @@ namespace ch6 {
     void run() {
         std::cout << "Running Chapter 6...\n";
 
-        // 创建一个简单的菜单系统
+        // 创建菜单系统
         std::cout << "1. 基本数据类型-空\n";
         std::cout << "2. 基本数据类型-布尔\n";
         std::cout << "3. 基本数据类型-字符\n";

@@ -16,7 +16,7 @@ namespace ch1 {
     void run() {
          std::cout << "Running Chapter 1...\n";
 
-         // 创建一个简单的菜单系统
+         // 创建菜单系统
          std::cout << "1. C++学习之旅概述\n";
          std::cout << "2. 为什么需要汇编语言\n";
          std::cout << "3. 从C++到可执行文件的过程\n";

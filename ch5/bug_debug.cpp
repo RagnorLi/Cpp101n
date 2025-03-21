@@ -15,7 +15,7 @@ namespace ch5 {
     void run() {
         std::cout << "Running Chapter 5...\n";
 
-        // 创建一个简单的菜单系统
+        // 创建菜单系统
         std::cout << "1. 实验系列1 内存错误-内存泄漏\n";
         std::cout << "2. 实验系列1 内存错误-缓存区溢出\n";
         std::cout << "3. 实验系列1 内存错误-悬空指针、野指针\n";

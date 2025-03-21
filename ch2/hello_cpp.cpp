@@ -16,7 +16,7 @@ namespace ch2 {
     void run() {
         std::cout << "Running Chapter 2...\n";
 
-        // 创建一个简单的菜单系统
+        // 创建菜单系统
         std::cout << "1. 计算机程序中的语句是什么？\n";
         std::cout << "2. 计算机程序中的表达式是什么？\n";
         std::cout << "3. 单行注释与多行注释\n";

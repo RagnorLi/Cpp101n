@@ -28,4 +28,6 @@ add_executable(learnCpp main.cpp
         ch0/cpp_compiler_principles.cpp
         ch8/operators.h
         ch8/operators.cpp
+        ch9/variable_life.h
+        ch9/variable_life.cpp
 )
