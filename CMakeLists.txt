@@ -26,4 +26,6 @@ add_executable(learnCpp main.cpp
         ch7/type_conversion.cpp
         ch0/cpp_compiler_principles.h
         ch0/cpp_compiler_principles.cpp
+        ch8/operators.h
+        ch8/operators.cpp
 )
