@@ -20,4 +20,8 @@ add_executable(learnCpp main.cpp
         ch4/filetype_family.cpp
         ch5/bug_debug.h
         ch5/bug_debug.cpp
+        ch6/fundamental_datatypes.h
+        ch7/type_conversion.h
+        ch6/fundamental_datatypes.cpp
+        ch7/type_conversion.cpp
 )
