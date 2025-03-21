@@ -24,4 +24,6 @@ add_executable(learnCpp main.cpp
         ch7/type_conversion.h
         ch6/fundamental_datatypes.cpp
         ch7/type_conversion.cpp
+        ch0/cpp_compiler_principles.h
+        ch0/cpp_compiler_principles.cpp
 )
