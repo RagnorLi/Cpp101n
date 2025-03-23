@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter01 - ModernCppLab</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 侧边导航栏 -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h3>目录</h3>
+            </div>
+            <nav class="sidebar-nav">
+                <ul class="nav-list">
+                    
+                    <li class="nav-item">
+                        <a href="#card-1" class="nav-link">
+                            <span class="nav-number">1</span>
+                            <span class="nav-text">C++学习之旅</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#card-2" class="nav-link">
+                            <span class="nav-number">2</span>
+                            <span class="nav-text">汇编的作用</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#card-3" class="nav-link">
+                            <span class="nav-number">3</span>
+                            <span class="nav-text">编译流程</span>
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#card-4" class="nav-link">
+                            <span class="nav-number">4</span>
+                            <span class="nav-text">编译器比较</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            <div class="sidebar-footer">
+                <!-- 内部按钮移除 -->
+            </div>
+
+            <!-- 新增：固定位置的切换按钮 -->
+            <button id="toggle-sidebar" class="toggle-button fixed-toggle">
+                <span>&#x21E4;</span>
+            </button>
+        </aside>
+
+        <!-- 主内容区域 -->
+        <main class="main-content">
+            <header>
+                <h1>Chapter01</h1>
+                <div class="subtitle">C++编译过程</div>
+            </header>
+
+            <div class="learning-path">
+                
+                    <div id="card-1" class="card card-connected">
+    <div class="card-header">
+        <h2>C++学习之旅</h2>
+        <div class="step-number">1</div>
+    </div>
+    <div class="card-body">
+        
+        <div class="description">
+            开始学习C++的第一步是理解编译过程
+        </div>
+        
+
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>简单的C++程序</span>
+                    <span class="language-badge">cpp</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">cout</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="s">&quot;Hello, Modern C++!&quot;</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+                </div>
+            </div>
+        
+    </div>
+</div>
+                
+                    <div id="card-2" class="card card-connected">
+    <div class="card-header">
+        <h2>汇编的作用</h2>
+        <div class="step-number">2</div>
+    </div>
+    <div class="card-body">
+        
+        <div class="description">
+            编译器将C++代码翻译为汇编语言的关键原因
+        </div>
+        
+
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>源代码</span>
+                    <span class="language-badge">cpp</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kt">int</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">42</span><span class="p">;</span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+                </div>
+            </div>
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>生成的汇编代码</span>
+                    <span class="language-badge">asm</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span><span class="nl">main:</span>
+<span class="w">    </span><span class="nf">push</span><span class="w">    </span><span class="no">rbp</span>
+<span class="w">    </span><span class="nf">mov</span><span class="w">     </span><span class="no">rbp</span><span class="p">,</span><span class="w"> </span><span class="no">rsp</span>
+<span class="w">    </span><span class="nf">mov</span><span class="w">     </span><span class="no">DWORD</span><span class="w"> </span><span class="no">PTR</span><span class="w"> </span><span class="p">[</span><span class="no">rbp-4</span><span class="p">],</span><span class="w"> </span><span class="mi">42</span>
+<span class="w">    </span><span class="nf">mov</span><span class="w">     </span><span class="no">eax</span><span class="p">,</span><span class="w"> </span><span class="no">DWORD</span><span class="w"> </span><span class="no">PTR</span><span class="w"> </span><span class="p">[</span><span class="no">rbp-4</span><span class="p">]</span>
+<span class="w">    </span><span class="nf">pop</span><span class="w">     </span><span class="no">rbp</span>
+<span class="w">    </span><span class="nf">ret</span>
+</pre></div>
+
+                </div>
+            </div>
+        
+    </div>
+</div>
+                
+                    <div id="card-3" class="card card-connected">
+    <div class="card-header">
+        <h2>编译流程</h2>
+        <div class="step-number">3</div>
+    </div>
+    <div class="card-body">
+        
+        <div class="description">
+            从源代码到可执行文件的完整过程
+        </div>
+        
+
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>第1步 - 预处理</span>
+                    <span class="language-badge">cpp</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span><span class="c1">// 原始代码</span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;iostream&gt;</span>
+<span class="cp">#define MAX 100</span>
+<span class="c1">// 预处理后</span>
+<span class="c1">// &lt;iostream&gt;的全部内容展开</span>
+<span class="c1">// MAX被替换为100</span>
+</pre></div>
+
+                </div>
+            </div>
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>第2步 - 编译为汇编</span>
+                    <span class="language-badge">asm</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span><span class="na">.file</span><span class="w"> </span><span class="s">&quot;source.cpp&quot;</span>
+<span class="na">.section</span><span class="w"> </span><span class="no">.text</span>
+<span class="na">.globl</span><span class="w"> </span><span class="no">main</span>
+<span class="nl">main:</span>
+<span class="w">    </span><span class="c1">// 汇编代码...</span>
+</pre></div>
+
+                </div>
+            </div>
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>第3步 - 汇编为目标文件</span>
+                    <span class="language-badge">text</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span>7F 45 4C 46 02 01 01 00 // 目标文件二进制
+</pre></div>
+
+                </div>
+            </div>
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>第4步 - 链接为可执行文件</span>
+                    <span class="language-badge">bash</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span>$<span class="w"> </span>g++<span class="w"> </span>-o<span class="w"> </span>program<span class="w"> </span>main.o
+$<span class="w"> </span>file<span class="w"> </span>program
+program:<span class="w"> </span>ELF<span class="w"> </span><span class="m">64</span>-bit<span class="w"> </span>LSB<span class="w"> </span>executable
+</pre></div>
+
+                </div>
+            </div>
+        
+    </div>
+</div>
+                
+                    <div id="card-4" class="card ">
+    <div class="card-header">
+        <h2>编译器比较</h2>
+        <div class="step-number">4</div>
+    </div>
+    <div class="card-body">
+        
+        <div class="description">
+            GCC、Clang和MSVC三大主流C++编译器的对比
+        </div>
+        
+
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>GCC编译器</span>
+                    <span class="language-badge">bash</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span><span class="c1"># Linux/macOS上使用GCC</span>
+g++<span class="w"> </span>-std<span class="o">=</span>c++17<span class="w"> </span>-Wall<span class="w"> </span>-O2<span class="w"> </span>main.cpp<span class="w"> </span>-o<span class="w"> </span>program
+<span class="c1"># 支持众多平台和标准</span>
+<span class="c1"># 强大的优化选项</span>
+</pre></div>
+
+                </div>
+            </div>
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>Clang编译器</span>
+                    <span class="language-badge">bash</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span><span class="c1"># 使用Clang编译</span>
+clang++<span class="w"> </span>-std<span class="o">=</span>c++17<span class="w"> </span>-Wall<span class="w"> </span>main.cpp<span class="w"> </span>-o<span class="w"> </span>program
+<span class="c1"># 友好的错误提示</span>
+<span class="c1"># 与LLVM优化系统集成</span>
+</pre></div>
+
+                </div>
+            </div>
+        
+            <div class="code-container">
+                <div class="code-header">
+                    <span>MSVC编译器</span>
+                    <span class="language-badge">batch</span>
+                </div>
+                <div class="code-block">
+                    <div class="code-block"><pre><span></span><span class="c1">REM Windows上使用MSVC</span>
+cl /std:c++17 /W4 /EHsc main.cpp
+<span class="c1">REM 与Windows平台深度集成</span>
+<span class="c1">REM Visual Studio IDE支持</span>
+</pre></div>
+
+                </div>
+            </div>
+        
+    </div>
+</div>
+                
+            </div>
+
+            <footer>
+                <p>ModernCppLab © 2025 | <a href="#">下一章: C++内存模型</a></p>
+            </footer>
+        </main>
+    </div>
+
+    <script>
+        // 侧边栏切换功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleButton = document.getElementById('toggle-sidebar');
+            const container = document.querySelector('.container');
+
+            toggleButton.addEventListener('click', function() {
+                container.classList.toggle('sidebar-collapsed');
+
+                // 更新按钮方向
+                const icon = toggleButton.querySelector('span');
+                if (container.classList.contains('sidebar-collapsed')) {
+                    icon.innerHTML = '&#x21E5;';
+                } else {
+                    icon.innerHTML = '&#x21E4;';
+                }
+            });
+
+            // 在小屏幕上自动折叠侧边栏
+            function checkScreenSize() {
+                if (window.innerWidth < 768) {
+                    container.classList.add('sidebar-collapsed');
+                    toggleButton.querySelector('span').innerHTML = '&#x21E5;';
+                }
+            }
+
+            // 初始检查
+            checkScreenSize();
+
+            // 窗口调整时检查
+            window.addEventListener('resize', checkScreenSize);
+
+            // 点击锚点链接滚动到对应位置并高亮
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // 移除所有活动类
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    // 添加活动类到当前点击的链接
+                    this.classList.add('active');
+
+                    // 小屏幕上点击后收起侧边栏
+                    if (window.innerWidth < 768) {
+                        container.classList.add('sidebar-collapsed');
+                        toggleButton.querySelector('span').innerHTML = '&#x21E5;';
+                    }
+                });
+            });
+
+            // 监听滚动以高亮当前可见的卡片
+            window.addEventListener('scroll', function() {
+                const cards = document.querySelectorAll('.card');
+                let closestCard = null;
+                let closestDistance = Infinity;
+
+                cards.forEach(card => {
+                    const rect = card.getBoundingClientRect();
+                    const distance = Math.abs(rect.top);
+
+                    if (distance < closestDistance) {
+                        closestDistance = distance;
+                        closestCard = card;
+                    }
+                });
+
+                if (closestCard) {
+                    const id = closestCard.id;
+                    navLinks.forEach(link => {
+                        link.classList.remove('active');
+                        if (link.getAttribute('href') === '#' + id) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
