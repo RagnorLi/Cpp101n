@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.29)
-project(ModernCppLab)
+project(Cpp101n)
 
 set(CMAKE_CXX_STANDARD 20)
 
 include_directories(${PROJECT_SOURCE_DIR}/)
 
-add_executable(learnCpp main.cpp
+add_executable(Cpp101n main.cpp
         ch1/enjoy.cpp
         ch1/enjoy.h
         ch_runner.cpp
