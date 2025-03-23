@@ -9,6 +9,7 @@
 </div>
 
 <div align="center">
+<br>
 
 ![C++版本](https://img.shields.io/badge/C++-20-blue.svg?style=flat&logo=c%2B%2B)
 ![License](https://img.shields.io/badge/license-MIT-blue)
