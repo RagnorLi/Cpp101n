@@ -1,6 +1,14 @@
 # 📚 C++ 学习之旅
 
 <div align="center">
+  <a href="https://ragnorli.github.io/Cpp101n/" target="_blank">
+    <img src="docs/gh-pages/Cpp101n.png" alt="C++ 学习之旅主页" width="600">
+    <br>
+    <b>👆 点击图片访问在线学习平台 👆</b>
+  </a>
+</div>
+
+<div align="center">
 
 ![C++版本](https://img.shields.io/badge/C++-20-blue.svg?style=flat&logo=c%2B%2B)
 ![License](https://img.shields.io/badge/license-MIT-blue)
