@@ -3,7 +3,7 @@
 <div align="center">
 
 ![C++版本](https://img.shields.io/badge/C++-20-blue.svg?style=flat&logo=c%2B%2B)
-![许可证](https://img.shields.io/github/license/RagnorLi/Cpp101n)
+![License](https://img.shields.io/badge/license-MIT-blue)
 ![星标](https://img.shields.io/github/stars/RagnorLi/Cpp101n?style=social)
 [![欢迎PR](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
