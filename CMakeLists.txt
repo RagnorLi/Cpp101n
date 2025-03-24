@@ -36,4 +36,6 @@ add_executable(Cpp101n main.cpp
         ch11/error_detection_and_handling.cpp
         ch12/unit_test.h
         ch12/unit_test.cpp
+        ch13/oop.h
+        ch13/oop.cpp
 )
