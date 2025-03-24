@@ -40,4 +40,6 @@ add_executable(Cpp101n main.cpp
         ch13/oop.cpp
         ch14/containers.h
         ch14/containers.cpp
+        ch15/memory.h
+        ch15/memory.cpp
 )
