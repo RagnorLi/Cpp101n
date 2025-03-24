@@ -42,4 +42,14 @@ add_executable(Cpp101n main.cpp
         ch14/containers.cpp
         ch15/memory.h
         ch15/memory.cpp
+        ch16/pointer.h
+        ch17/templates.h
+        ch19/stl.h
+        ch18/io.h
+        ch20/llm.h
+        ch16/pointer.cpp
+        ch17/templates.cpp
+        ch18/io.cpp
+        ch19/stl.cpp
+        ch20/llm.cpp
 )
