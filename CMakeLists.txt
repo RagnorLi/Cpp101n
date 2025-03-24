@@ -34,4 +34,6 @@ add_executable(Cpp101n main.cpp
         ch10/control_flow.cpp
         ch11/error_detection_and_handling.h
         ch11/error_detection_and_handling.cpp
+        ch12/unit_test.h
+        ch12/unit_test.cpp
 )
