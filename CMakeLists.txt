@@ -32,4 +32,6 @@ add_executable(Cpp101n main.cpp
         ch9/variable_life.cpp
         ch10/control_flow.h
         ch10/control_flow.cpp
+        ch11/error_detection_and_handling.h
+        ch11/error_detection_and_handling.cpp
 )
