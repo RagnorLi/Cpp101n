@@ -80,14 +80,38 @@ make
 
 ## 📋 Learning Path
 
-| Chapter | Topic | Concepts Covered | Knowledge Card |
-|---------|-------|------------------|----------------|
-| 01 | C++ Basics | Variables, Types, Control Flow |a|
-| 02 | Functions & Scope | Parameter Passing, Return Values |
-| 03 | Arrays & Strings | Iteration, Manipulation, C vs C++ |a|
-| 04 | Pointer Visualization | Memory Model, Pointer Arithmetic |a|
-| ... | ... | ... | ... |
-| 17 | Modern C++ | Move Semantics, Smart Pointers, RAII |a|
+| Chapter | Topic | Core Concepts | Difficulty | Application Scenarios | Related Technologies | Project Demo | Status |
+|------|------|---------|------|---------|---------|---------|------|
+| 00 | 🔧 **Compiler Principles** | Preprocessing, Lexical Analysis, Syntax Analysis, Semantic Analysis, IR Generation, Optimization, Code Generation | 🌟🌟🌟 | Compiler Development, Language Design | LLVM, Clang, GCC | Mini Compiler | ✅ |
+| 01 | 🚀 **C++ Compilation Process** | Compilation Flow, Assembly Conversion, Compiler Comparison, Linking Principles | 🌟 | Build Systems, Cross-compilation | CMake, Make, Ninja | Build Process Visualization | ✅ |
+| 02 | 📝 **Syntax Basics** | Statements, Expressions, Comments, Variables, Naming, Operators, Return Values | 🌟 | All C++ Programs | Coding Standards, Static Analysis | Advanced Hello World | ✅ |
+| 03 | 🧩 **Function Family** | Definition-scope Functions, Special-purpose Functions, Constrained Functions, Polymorphic Functions, Generic Functions | 🌟🌟 | API Design, Library Development | std::function, Function Pointers | Function Factory | ✅ |
+| 04 | 📁 **File Type Taxonomy** | Source Files, Header Files, Precompiled Headers, Object Files, Library Files, Executables | 🌟🌟 | Project Architecture, Modularity | Modules, Namespaces | Project Skeleton Generator | ✅ |
+| 05 | 🐛 **Debugging & Error Handling** | Memory Errors, Concurrency Errors, Type Errors, Resource Management, Performance Issues | 🌟🌟🌟 | Software Quality Assurance | GDB, LLDB, Valgrind | Error Diagnosis Tool | ✅ |
+| 06 | 🧠 **Data Type System** | Basic Types, Compound Types, User Types, Standard Library Types, C++20 Specific Types | 🌟🌟 | Data Modeling, Type Design | Type Traits, Concepts | Type Analyzer | ✅ |
+| 07 | 🔄 **Type Conversion Art** | Implicit Conversion, Explicit Conversion, Safe Conversion, Ownership Transfer | 🌟🌟 | Interface Design, API Integration | Type Traits, SFINAE | Type Conversion Toolkit | ✅ |
+| 08 | ➗ **Operator Deep Dive** | Arithmetic, Relational, Bitwise, Member Access, Special Operators, C++20 Operators | 🌟🌟 | DSL Design, Expression Templates | Operator Overloading, Expression Templates | Math Library | ✅ |
+| 09 | ⏱️ **Variable Lifecycle** | Declaration, Allocation, Initialization, Usage, Destruction, RAII Pattern | 🌟🌟 | Resource Management, Memory Optimization | Smart Pointers, Move Semantics | Memory Tracker | ✅ |
+| 10 | 🔀 **Advanced Control Flow** | Sequential Flow, Branching, Loop Iteration, Exception Handling, Coroutines | 🌟🌟 | Algorithm Implementation, State Machines | std::ranges, coroutines | State Machine Engine | ✅ |
+| 11 | ⚠️ **Error Handling Strategies** | Compile-time Detection, Runtime Detection, Exception Safety, Error Codes, Contracts | 🌟🌟 | Robust Systems, Secure Software | std::expected, std::optional | Error Handling Framework | ✅ |
+| 12 | 🧪 **Test-Driven Development** | Unit Testing, Integration Testing, Mock Objects, Test Coverage, CI/CD | 🌟🌟 | Software Quality, Continuous Integration | Catch2, GoogleTest | Test Suite Generator | ✅ |
+| 13 | 🏗️ **Object-Oriented Deep Dive** | Encapsulation, Inheritance, Polymorphism, RAII, Virtual Function Mechanism, Design Patterns | 🌟🌟🌟 | Large System Design | vtables, CRTP | Framework Design Demo | ✅ |
+| 14 | 📦 **Containers & Collections** | Sequence Containers, Associative Containers, Unordered Containers, Views, Iterators | 🌟🌟 | Data Structures, Algorithms | std::vector, std::map | Data Structure Visualization | ✅ |
+| 15 | 💾 **Memory Management Art** | Memory Layout, Allocation Strategies, Object Lifecycle, Smart Pointers, Memory Barriers | 🌟🌟🌟 | Performance Optimization, Resource-constrained Environments | std::allocator, Memory Pools | Custom Memory Allocator | ✅ |
+| 16 | 👉 **Pointer Mastery** | Pointer Types, Pointer Arithmetic, Smart Pointers, Memory Safety, Pointer Pitfalls | 🌟🌟🌟 | Systems Programming, Driver Development | unique_ptr, shared_ptr | Safe Pointer Library | ✅ |
+| 17 | 📐 **Template Metaprogramming** | Type Templates, Function Templates, SFINAE, Variadic Templates, Concept Constraints | 🌟🌟🌟🌟 | Generic Libraries, Compile-time Computation | Metafunctions, Type Traits | Compile-time Computation Framework | ✅ |
+| 18 | 📊 **I/O Streams & Serialization** | Stream Model, File I/O, Formatting, Binary I/O, Network I/O | 🌟🌟 | Data Persistence, Network Communication | iostream, fstream | Serialization Engine | ✅ |
+| 19 | 🧰 **STL In-Depth Analysis** | Container Principles, Iterator Design, Algorithm Implementation, Function Objects, Ranges | 🌟🌟🌟 | Generic Algorithms, Data Processing | Algorithm, Ranges | Custom STL Implementation | ✅ |
+| 20 | 🤖 **Large Models & C++** | Inference Engines, Quantization, Hardware Acceleration, Distributed Parallel Computing | 🌟🌟🌟🌟 | AI Applications, High-performance Computing | CUDA, TensorRT | Lightweight Inference Engine | ✅ |
+| 21 | ⚡ **Concurrency & Parallel Programming** | Threads, Synchronization Primitives, Atomic Operations, Memory Model, Lock Design | 🌟🌟🌟 | High-performance Services, Real-time Systems | std::thread, async | Thread Pool Implementation | 🔜 |
+| 22 | λ **Functional Programming** | Pure Functions, Immutability, Higher-order Functions, Function Pipelines, Monads | 🌟🌟🌟 | Data Flow Processing, Reactive Programming | std::function, Lambda | Functional Data Processing Library | 🔜 |
+| 23 | 📘 **Design Patterns & Architecture** | Creational Patterns, Structural Patterns, Behavioral Patterns, Architectural Patterns | 🌟🌟🌟 | Maintainable Systems, Large Projects | Factory, Observer, MVVM | Design Pattern Catalog | 🔜 |
+| 24 | ⚡ **Performance Optimization Mastery** | Data Locality, CPU Cache, Branch Prediction, SIMD, Parallelism | 🌟🌟🌟🌟 | Game Engines, Scientific Computing | AVX, OpenMP | Performance Benchmark Suite | 🔜 |
+| 25 | 🌐 **Network Programming** | Sockets, Async I/O, Protocol Stacks, HTTP Clients, RPC | 🌟🌟🌟 | Network Services, Distributed Systems | Asio, gRPC | Microservice Framework | 🔜 |
+| 26 | 🎮 **Graphics & Gaming** | Rendering Pipeline, Physics Engine, Audio Processing, Input Handling | 🌟🌟🌟🌟 | Game Development, Visualization | OpenGL, Vulkan | Mini Game Engine | 🔜 |
+| 27 | 📱 **Cross-platform Development** | Platform Abstraction, Conditional Compilation, GUI Frameworks, Mobile Development | 🌟🌟🌟 | Desktop Applications, Mobile Apps | Qt, wxWidgets | Cross-platform APP | 🔜 |
+| 28 | 🔄 **Modern C++ Ecosystem** | Package Management, Build Systems, CI/CD, Static Analysis, Documentation | 🌟🌟🌟 | Open Source Projects, Team Collaboration | Conan, vcpkg, CMake | Project Template Generator | 🔜 |
+| 29 | 🏆 **Large Project Practice** | Architecture Design, Performance Tuning, Code Quality, Release Management | 🌟🌟🌟🌟 | Commercial Software, System Software | Full-stack C++ Technologies | Comprehensive Application System | 🔜 |
 
 ## 🎯 Project Showcase
 
