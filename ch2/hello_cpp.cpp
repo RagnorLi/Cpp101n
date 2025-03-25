@@ -8,7 +8,6 @@
  */
 #include "hello_cpp.h"
 #include "ch_runner.h"
-#include "statement/statementImpl.h"
 
 #include <iostream>
 
