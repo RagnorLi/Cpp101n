@@ -6,7 +6,7 @@
  * @details 
  * @copyright Copyright (c) 2025 ragnor. All rights reserved.
  */
-#include "bug_debug.h"
+#include "debug.h"
 #include "ch_runner.h"
 
 #include <iostream>

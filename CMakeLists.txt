@@ -12,14 +12,12 @@ add_executable(Cpp101n main.cpp
         ch_runner.h
         ch2/hello_cpp.cpp
         ch2/hello_cpp.h
-        ch2/statement/statementImpl.cpp
-        ch2/statement/statementImpl.h
-        ch3/function_family.h
-        ch3/function_family.cpp
-        ch4/filetype_family.h
-        ch4/filetype_family.cpp
-        ch5/bug_debug.h
-        ch5/bug_debug.cpp
+        ch3/functions.h
+        ch3/functions.cpp
+        ch4/filetypes.h
+        ch4/filetypes.cpp
+        ch5/debug.h
+        ch5/debug.cpp
         ch6/fundamental_datatypes.h
         ch7/type_conversion.h
         ch6/fundamental_datatypes.cpp
@@ -52,4 +50,9 @@ add_executable(Cpp101n main.cpp
         ch18/io.cpp
         ch19/stl.cpp
         ch20/llm.cpp
+        ch5/debug.h
+        ch5/debug.cpp
+        ch4/filetypes.h
+        ch4/filetypes.cpp
+        ch4/filetypes.cpp
 )
